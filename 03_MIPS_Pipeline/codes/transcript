@@ -1,0 +1,36 @@
+# Reading pref.tcl
+# OpenFile {E:/Programming/Verilog/Memari Computer/MIPS Pipeline/MIPS Pipeline.mpf}
+# Loading project MIPS Pipeline
+# Compile of utility.v was successful.
+# Compile of ALU.v was successful.
+# Compile of registerFile.v was successful.
+# Compile of dataMem.v was successful.
+# Compile of instructionMem.v was successful.
+# Compile of control.v was successful.
+# Compile of dataPath.v was successful.
+# Compile of forwardUnit.v was successful.
+# Compile of HDU.v was successful.
+# Compile of testBench.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:51:23 on Jun 12,2022
+# Loading work.testBench
+# Loading work.dataPath
+# Loading work.shiftLeft2
+# Loading work.mux3to1
+# Loading work.register
+# Loading work.instructionMem
+# Loading work.adder
+# Loading work.control
+# Loading work.HDU
+# Loading work.SignExtend
+# Loading work.registerFile
+# Loading work.comprator
+# Loading work.forwardUnit
+# Loading work.mux2to1
+# Loading work.ALUDP
+# Loading work.ALUCU
+# Loading work.dataMem
+# End time: 21:51:27 on Jun 12,2022, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0

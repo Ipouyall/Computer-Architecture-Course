@@ -1,0 +1,37 @@
+# Compile of processor.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controller.v was successful.
+# Compile of aluCTRLR.v was successful.
+# Compile of aluDP.v was successful.
+# Compile of memory.v was successful.
+# Compile of programCounter.v was successful.
+# Compile of registerfile.v was successful.
+# Compile of utility.v was successful.
+# Compile of testBench.v was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 22:40:27 on Jun 13,2022
+# Loading work.TB
+# Loading work.proccesor
+# Loading work.controller
+# Loading work.alu_ctrlr
+# Loading work.dataPath
+# Loading work.PC
+# Loading work.Mux2to1
+# Loading work.Memory
+# Loading work.Register
+# Loading work.Mux3to1
+# Loading work.Reg_file
+# Loading work.Sign_extend
+# Loading work.alu_dp
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'out'. The port definition is at: D:/university-term4/computer-architecture/multycycle/utility.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/p/dp/m3 File: D:/university-term4/computer-architecture/multycycle/datapath.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'read_reg2'. The port definition is at: D:/university-term4/computer-architecture/multycycle/registerfile.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/p/dp/rf File: D:/university-term4/computer-architecture/multycycle/datapath.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (4) for port 'write_reg'. The port definition is at: D:/university-term4/computer-architecture/multycycle/registerfile.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/p/dp/rf File: D:/university-term4/computer-architecture/multycycle/datapath.v Line: 45
+run
+run
+# End time: 22:41:55 on Jun 13,2022, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 5

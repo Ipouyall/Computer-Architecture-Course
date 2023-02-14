@@ -1,0 +1,11 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/TB/p/dp/rf/registers
+// format=bin addressradix=h dataradix=b version=1.0 wordsperline=1 noaddress
+0010000001001011
+0010000001001011
+1000000000000000
+0000000100100000
+xxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxx
+0000000000001100
+xxxxxxxxxxxxxxxx
